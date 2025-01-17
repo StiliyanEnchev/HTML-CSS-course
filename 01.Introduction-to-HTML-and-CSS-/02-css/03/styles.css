@@ -1,0 +1,28 @@
+[type="highlight"] {
+    color: aqua;
+}
+
+section {
+    background-color: yellow;
+}
+
+li[id="1"] {
+    color: red;
+}
+
+li[id="2"] {
+    color: rgb(0, 249, 91);
+}
+
+li[id="3"] {
+    color: rgb(255, 204, 0);
+    font-style: italic;
+}
+
+a:first-of-type {
+    color: red;
+}
+
+p:nth-of-type(4) a{
+    color: rgb(42, 165, 93);
+}
