@@ -1,0 +1,31 @@
+div {
+    padding: 2em;
+    border: 1px dashed #333;
+}
+
+p {
+    margin: 0%;
+}
+
+.border-box {
+    width: 600px;
+    height: 40px auto;
+    
+}
+
+.content {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.margin {
+    background-color: blue;
+}
+
+.padding {
+    background-color: aqua;
+}
+
+.border {
+    background-color: blueviolet;
+}
