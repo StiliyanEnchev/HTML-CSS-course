@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    margin: 4em;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    font: 14px/1.5 Lato, sans-serif;
+
+}
+
+body {
+    font: inherit;
+    padding: 2em;
+    border: black solid 0.1em
+
+    
+}
+
+h1, h3 {
+    padding-bottom: 0.5em;
+}
+
+p {
+    padding-bottom: 1em;
+}
+
+.italic {
+    font-style: italic;
+}

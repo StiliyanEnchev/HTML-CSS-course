@@ -1,0 +1,22 @@
+summary {
+    text-align: left;
+    font-weight: bold;
+}
+
+details {
+    padding: 1em;
+    border: solid 0.1em rgb(205, 205, 205);
+}
+
+details:nth-child(2) {
+    border-top: none;
+    border-bottom: none;
+}
+
+summary::marker {
+    content: '> '; 
+  }
+
+  details[open] summary::marker {
+    content: 'v '; 
+  }
