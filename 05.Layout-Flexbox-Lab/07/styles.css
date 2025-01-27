@@ -3,12 +3,24 @@
     Padding: 1em;
     Border: 2px solid blue;
     Display: flex;
-
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .flex-item {
     Background: #eee;
     Padding: 20px;
     Border: 2px solid #000;
-    
 }
+
+.gap-row {
+    gap: 2em 0; 
+  }
+  
+.gap-column {
+    gap: 0 2em; 
+  }
+  
+.gap {
+    gap: 2em; 
+  }

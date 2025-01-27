@@ -3,6 +3,8 @@
     Padding: 1em;
     Border: 2px solid blue;
     Display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
 
 }
 
@@ -10,5 +12,25 @@
     Background: #eee;
     Padding: 20px;
     Border: 2px solid #000;
-    
+
+}
+
+.flex-grow-1 .flex-item {
+    flex-grow: 1;
+}
+
+.flex-grow-second .flex-item:nth-child(2) {
+    flex-grow: 1;
+}
+
+.flex-grow-proportional .flex-item:nth-child(1) {
+    flex-grow: 1;
+}
+
+.flex-grow-proportional .flex-item:nth-child(2) {
+    flex-grow: 2;
+}
+
+.flex-grow-proportional .flex-item:nth-child(3) {
+    flex-grow: 3;
 }

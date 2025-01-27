@@ -10,5 +10,22 @@
     Background: #eee;
     Padding: 20px;
     Border: 2px solid #000;
-    
+
+}
+
+.flex-basis-5em .flex-item {
+    flex-basis: 5em;
+}
+
+.flex-basis-shrink-0 .flex-item {
+    flex-shrink: 0;
+    width: 80px;
+}
+
+.flex-basis-grow-1 {
+    width: 900px;
+}
+
+.flex-basis-grow-1 .flex-item {
+    flex-grow: 1;
 }
