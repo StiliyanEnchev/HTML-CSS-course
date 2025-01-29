@@ -1,9 +1,10 @@
 .flex-container {
     width: 400px;
-    Padding: 1em;
+    padding: 1em;
     Border: 2px solid blue;
-    Display: flex;
+    display: flex;
     align-items: flex-start;
+    padding-bottom: 10em;
 }
 
 .flex-item {
@@ -13,6 +14,19 @@
     
 }
 
-.align-self-flex-start {
+.align-self-flex-start .flex-item:nth-child(2) {
     align-self: flex-start;
+}
+
+.align-self-center {
+    align-self: center;
+}
+
+.align-self-flex-end {
+    align-self: end;
+}
+
+
+.align-self-baseline {
+    align-self: baseline;
 }

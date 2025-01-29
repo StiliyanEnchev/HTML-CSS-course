@@ -3,6 +3,7 @@
     Padding: 1em;
     Border: 2px solid blue;
     Display: flex;
+    align-items: flex-start;
 
 }
 
@@ -12,3 +13,4 @@
     Border: 2px solid #000;
     
 }
+
