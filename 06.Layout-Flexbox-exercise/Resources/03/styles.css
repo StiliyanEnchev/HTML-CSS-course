@@ -1,0 +1,46 @@
+.calendar {
+    background: white;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em rgb(0, 0, 0, 0.2);
+    margin: 4em 2em;
+    padding: 2em;
+    Display: flex;
+
+} 
+
+.calendar > * {
+    border: 1px solid #999;
+}
+
+.calendar > main {
+    flex-grow: 1;
+}
+
+.calendar > aside {
+    display: flex;
+    flex-direction: column;
+}
+
+aside article {
+    border: solid #999 1px;
+    text-align: center;
+    padding: 2em;
+    flex-grow: 1;
+}
+
+.label {
+    border: solid #999 1px;
+    text-align: center;
+    padding: 2em;
+}
+
+.row {
+    display: flex;
+}
+
+.row p {
+    border: solid #999 1px;
+    text-align: center;
+    padding: 2em;
+    flex-grow: 1;
+}
