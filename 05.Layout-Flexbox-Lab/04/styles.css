@@ -12,3 +12,31 @@
     Border: 2px solid #000;
     
 }
+
+img {
+    border: solid black 0.5em;
+}
+
+.space-evenly {
+    justify-content: space-evenly
+}
+
+
+.space-around {
+    justify-content: space-around
+}
+
+.space-between {
+    justify-content: space-between
+}
+
+.flex-end {
+    justify-content: flex-end
+}
+.center {
+    justify-content: center
+}
+.flex-start {
+    justify-content: flex-start
+}
+
