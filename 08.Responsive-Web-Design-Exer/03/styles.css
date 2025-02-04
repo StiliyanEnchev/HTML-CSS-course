@@ -1,0 +1,80 @@
+html {
+    background-color: rgb(208, 208, 208);
+}
+
+body {
+    font-size: medium; 
+}
+
+.site {
+    margin: 1em;
+    padding: 1em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.5em;
+
+}
+
+h1 { font-size: 2.5em; margin: 14px; }  
+h2 { font-size: 2.1em; margin: 14px; }  
+h3 { font-size: 1.8em; margin: 14px; }  
+h4 { font-size: 1.5em; margin: 14px; }  
+h5 { font-size: 1.3em; margin: 14px; }  
+h6 { font-size: 1.1em; margin: 14px; padding-bottom: 5px;}  
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+th, td {
+    border: 1px solid rgb(193, 193, 193);
+    padding: 5px;
+}
+th {
+    background-color:  rgb(193, 193, 193);
+    border-top: none;
+}
+tr:nth-child(even) {
+    background-color: #eaeaea;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 3px solid rgb(201, 201, 201);
+    padding-left: 1em;
+    margin-left: 1em;
+}
+
+.name {
+    text-align: right;
+
+}
+
+
+
+@media (max-width: 400px) {
+    body {
+        font-size: larger;  
+    }
+}
+
+@media (min-width: 600px) and (max-width: 799px) {
+    body {
+        font-size: large; 
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1199px) {
+    body {
+        font-size: medium; 
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        font-size: smaller; 
+    }
+}
