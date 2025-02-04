@@ -1,3 +1,7 @@
+html {
+    font-family: Lato, sans-serif;
+}
+
 body {
     background-color: rgb(152, 152, 152);
 }
@@ -22,7 +26,11 @@ h1 {
     background-color: rgb(77, 75, 75);
     padding: 1em;
     color: aliceblue;
+    white-space: nowrap;
+
 }
+
+
 
 footer {
     color: aliceblue;
@@ -61,8 +69,10 @@ main {
     }
 }
 
+
 @media (max-width: 400px) {
     body {
         font-size: larger;
     }
     }
+    
