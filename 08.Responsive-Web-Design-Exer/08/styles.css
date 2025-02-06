@@ -55,13 +55,3 @@ p {
     font-weight: bold;
     font-size: 16px;
 }
-
-@media (max-width: 600px) {
-    .container {
-        flex-direction: column;
-
-    }
-    .article {
-        width: 100%;
-    }
-}
