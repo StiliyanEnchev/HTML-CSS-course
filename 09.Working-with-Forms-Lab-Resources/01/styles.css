@@ -4,6 +4,20 @@ img {
     border: 0.1em solid black;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+
 html {
     font: 14px/1.5 Lato, sans-serif;
 }
