@@ -55,3 +55,9 @@ input {
 input:focus {
     border-color: #090;
 }
+
+select {
+    display: block;
+    min-width: 20ch;
+    min-height: 20ch;
+}
