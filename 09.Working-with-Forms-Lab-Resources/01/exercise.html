@@ -6,41 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
+
 </head>
 
 <body>
+    <div class="site">
+        <h1>The Form Element</h1>
+        <p>The form element represents a document section containing interactive controls for submitting information.
+        </p>
+        <h2>Attribute - method="get" (default)</h2>
+        <p>Form data appended to the action URL with a ? separator.</p>
+        <form action="#" method="get">
+            <label for="search">Search</label>
+            <input type="search">
+            <button type="submit">Submit</button>
+        </form>
 
-    <h1>Form elements</h1>
+        <h2>Attribute - method="post" (default)</h2>
+        <p>Form data sent as the request body.</p>
 
-    <form action="#" method="get">
-        <label for="search">Search Box: </label>
-        <input type="text" name="search" id="search" placeholder="This is the field placeholder">
-        <button>search</button>
+        <form action="#" method="post">
+            <label for="search">Search</label>
 
-        <fieldset>
+            <input type="search">
+            <button type="submit">Submit</button>
 
-            <legend> Gaga or not Gaga </legend>
+        </form>
+    </div>
 
-            <input type="checkbox" , name="gaga-or-not" , id="Gaga">
-            <label for="Gaga">Gaga</label>
+</body>
 
-            <input type="radio" , name="gaga-or-not" , id="not Gaga">
-            <label for="not Gaga">not Gaga</label>
-
-            <input type="color" , name="gaga-or-not" , id="Gaga">
-            <label for="Gaga">color</label>
-
-            <input type="password" , name="gaga-or-not" , id="not Gaga">
-            <label for="not Gaga">password</label>
-
-            <input type="email" , name="gaga-or-not" , id="not Gaga">
-            <label for="not Gaga">email</label>
-            
-        </fieldset>
-
-    </form>
-
-
-    <img src="screenshot_[1200px].png" alt="screenshot">
+<img src="screenshot_[1200px].png" alt="screenshot">
 
 </html>

@@ -12,3 +12,25 @@ Search
     
 Submit
     
+
+    3.	Styling
+•	Add the standard reset styling – padding, margin, box-sizing
+•	Add the following styles to the HTML element
+1.	Font – 14px/1.5 Lato, sans-serif
+•	Inherit the font styling on these elements – body, input, textarea, select, option
+•	Add padding of 2 em to the body element
+•	Add margin-top of 2em to all h2 elements
+•	Add the following styles to the code elements:
+1.	Display – block
+2.	Padding – 2em 2em 0.5em 2em
+3.	Border-radius – 0.3em
+4.	Margin – 2em 0
+5.	Border – 1px solid #ccc
+6.	Overlow – auto
+•	Add the following styles to the input elements:
+1.	Display – inline-block
+2.	Padding – 0.5em 0.8em
+3.	Border – 2px solid #ccc
+4.	Outline – none
+•	Add the following styles to the input when focused:
+1.	Border-color – #090
