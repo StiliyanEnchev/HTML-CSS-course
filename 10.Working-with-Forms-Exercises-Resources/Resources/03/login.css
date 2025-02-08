@@ -1,0 +1,43 @@
+
+
+input[type="text"],
+input[type="email"] {
+    display: block;
+    width: 100%;
+    padding: 1em;
+    border: 2px solid #ffffff;
+    border-radius: 0.3em;
+    background-color: #e3e3e3;
+
+}
+
+
+.field {
+    padding-bottom: 0.5em;
+    position: relative;
+}
+
+button {
+    display: block;
+    border: none;
+    background-color: rgb(255, 128, 0);
+    color: white;
+    border-radius:  0.2em;
+    padding: 0.8em;
+    width: 100%;
+}
+
+.container {
+    padding: 2em;
+}
+
+input::placeholder {
+    font-weight: bold;
+}
+
+.fields {
+    display: flex;    
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
