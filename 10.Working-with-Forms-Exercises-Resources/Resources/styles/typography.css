@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+html {
+    font-size: clamp(12px, 12px + 0.2vw, 18px);
+    font-family: Lato, sans-serif;
+}
+
+
+p, ul, ol {
+    padding-bottom: 1.5em;
+}
