@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 html {
-    font-size: clamp(12px, 12px + 0.2vw, 18px);
+    font-size: clamp(10px, 10px + 0.25vw, 18px);
     font-family: Lato, sans-serif;
 }
 

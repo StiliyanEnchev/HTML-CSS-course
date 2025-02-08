@@ -1,0 +1,49 @@
+h2 {
+    font-size: 1.2em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #ccc;
+    display: inline-block;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 0.8em 1.2em;
+    border: 2px solid #AAA;
+    border-radius: 0.2em;
+}
+
+.field {
+    padding-bottom: 1.5em;
+}
+
+label:has(+ input[required])::after {
+    content: '*';
+    color: red;
+    margin-left: 4px;
+}
+
+
+button {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: orange;
+    color: white;
+    border-radius: 0.2em;
+    padding: 0.8em;
+}
+
+.container {
+    width: 100vw;
+    max-width: 30em;
+}

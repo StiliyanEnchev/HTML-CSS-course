@@ -5,22 +5,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+<link rel="stylesheet" href="login.css">
 </head>
 
 <body>
-    <div class="container"> 
+    <div class="container">
         <h2>Login</h2>
 
-<form action="#">     
+        <form action="#">
 
-<label for="">Email</label>
-<input type="email">
-<label for="">Password</label>
-<input type="password">
+            <div class="field">
+                <label for="login-email">Email</label>
+                <input type="email" name="login-email" id="login-email" required>
+            </div>
+<div class="field">
+    
+                <label for="login-password">Password</label>
+                <input type="password" name="login-password" id="login-password" required>
+</div>
 
-<button>Login</button>
+            <button>Login</button>
 
-</form>
+        </form>
     </div>
 </body>
 
