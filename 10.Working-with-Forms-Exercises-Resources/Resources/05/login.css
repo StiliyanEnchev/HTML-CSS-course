@@ -1,0 +1,61 @@
+h2 {
+    font-size: 1.2em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    display: inline-block;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type='date'] {
+    display: block;
+    width: 100%;
+    padding: 1em 0;
+    border-radius: 0.2em;
+    border: none;
+    border-bottom: 2px solid #d5d5d5;
+
+}
+
+.field {
+    padding-bottom: 1.5em;
+    position: relative;
+}
+
+
+
+.field .helper {
+    display: block;
+    font-size: 0.85em;
+    opacity: 0.7;
+    padding: 0.1em 0 0.2em 0;
+}
+
+
+button {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: rgb(207, 207, 207);
+    color: white;
+    border-radius: 0.2em;
+    padding: 0.8em;
+}
+
+.container {
+    width: 100vw;
+    max-width: 30em;
+}
+
+fieldset {
+    padding: 2em;
+    margin: 2em;
+}
+
