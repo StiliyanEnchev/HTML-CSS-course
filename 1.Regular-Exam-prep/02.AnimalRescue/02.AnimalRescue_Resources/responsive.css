@@ -1,0 +1,29 @@
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .header-title {
+        padding: 0.5em;
+    }
+
+    .helpNeed ul {
+        flex-direction: column;
+    }
+
+    .our-dogs-wrapper ul {
+        gap: 10px;
+
+    }
+
+    .our-dogs-wrapper ul li {
+        flex: 1 1 calc(50% - 10px);
+    }
+
+    .our-dogs-wrapper ul li img {
+        max-width: 10em;
+        height: 10em;
+
+    }
+}
