@@ -1,46 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
-
-
-* {
-    padding: 0;
-    margin: 0;
+img {
+    border-radius: 0.5em;
 }
 
-*, *::before, *::after {
-    box-sizing: inherit;
+.postcard {
+    margin: 1em;
 }
 
-html {
-    box-sizing: border-box;
+p {
+    font-size: smaller;
 }
 
-body {
-    background-color: rgb(238, 238, 238);
-    min-height: 100dvh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.upper {
+    text-align: center;
+    position: relative;
 }
 
-.container {
-    background-color: white;
-    padding: 2em;
-    border-radius: 0.3em;
-    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+h2 {
+    padding-bottom: 0.5em;
 }
 
-
-html {
-    font-size: clamp(10px, 10px + 0.25vw, 18px);
-    font-family: 'Gochi Hand';
+.desctiption {
+    background-color:rgb(230, 230, 230);
+    border-radius: 0.5em;
+    margin: 1em;
+    padding: 1em;
+    position: absolute;
+    bottom: 10px;
 }
 
-body, input, button, select, textarea {
-    font:inherit
+.lower {
+    margin-left: 1.3em;
 }
 
+.lower h3, .lower p {
+    margin: 1em 0.5em;
+}
 
-p, ul, ol {
-    padding-bottom: 1.5em;
+p {
+    color: rgb(122, 122, 122);
+}
+
+hr {
+    width: calc(100% + 32px); 
+    margin-left: -16px; 
+    border: none; 
+    height: 1px; 
+    background: rgb(181, 181, 181);
 }
