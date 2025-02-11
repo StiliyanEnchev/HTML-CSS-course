@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(238, 238, 238);
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    flex-direction: column;
+}
+
+.container {
+    background-color: white;
+    padding: 2em;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+}
+
