@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body, p, span, li, a {
+    font-family: 'Lato', sans-serif;
+    font-size: small;
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+.nav img {
+    width: 4%;
+    height: 4%;
+}
+
+.details img {
+    width: 50%;
+    height: 50%;
+    padding: 4em;
+}
+
+.nav {
+    display: flex;
+    background-color: black;
+    padding: 0.2em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 5em 1em;
+}
+
+.plans, .details {
+    display: flex;
+    align-items: center;
+}
+
+
+.plans, .differences {
+    padding: 1em;
+    margin: 1em;
+    gap: 2em;
+}
+
+
+h3 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+
+td {
+    display: flex;
+    flex-direction: row;
+}
+
+.details img {
+    width: 30%;
+    height: 30%;
+}
+
+.information p, .information h3 {
+    margin: 1em 2em;
+    text-align: left;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-title {
+    padding: 1em;
+    color: white;
+}
+
+.top-side {
+    background: linear-gradient(to bottom, rgb(39, 179, 48) 60%, rgb(255, 255, 255) 50%);
+    position: relative;
+
+}
+
+.plan {
+    border: 1px solid rgba(0, 0, 0, 0.595);
+    background-color: aliceblue;
+    border-radius: 0.9em;
+    width: 400px;
+    z-index: 10;
+
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+
+
+}
+
+.plan h3 {
+    padding: 1em;
+    color: rgb(148, 148, 148);
+}
+
+.plan ul {
+    padding-left: 3em;
+    margin: 1em;
+}
+
+
+.plan p {
+    padding: 1em 4em;
+    margin: 2em 5em;
+    text-align: center;
+    border-radius: 2em;
+    background-color: rgb(56, 214, 56);
+    color: white;
+    border: 0;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+ul li {
+    padding: 0.4em 0;
+
+}
+
+.footer-element {
+    border-bottom-left-radius: 0.6em;
+    border-bottom-right-radius: 0.6em;
+}
+
+
+.top-side > img {
+    width: 760px;
+    height: 500px;
+    position: absolute;
+    z-index: 0;
+    margin-top: 5em;
+}
+
+.bottom-side {
+    margin: 5em;
+}
+
+h2 {
+    font-size: xx-large;
+    padding: 1em;
+}
+
+h6 {
+    font-size: larger;
+    font-style:normal;
+}
+
+
+td {
+    padding: 1em 1em;
+    width: 800px;
+
+}
+
+table td:nth-child(odd) {
+    background-color: rgb(183, 183, 183);
+}
+
+table td:nth-child(even) {
+    background-color: green;
+}
+
+
+table td:last-child {
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+
+}
+
+
+table td:first-child {
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+
+}
+
+
+.differences td img:first-child {
+    display: block;
+    margin-left: auto;
+    margin-right: 10em;
+}
+
+
+.differences td img:last-child {
+    padding-right: 3em;
+
+}
+
+.footer-element {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-element div:nth-child(2) {
+    border-left: solid 1px white;
+    padding-left: 4em;
+}
