@@ -1,1 +1,42 @@
 
+@media (width <= 600px) {
+    nav ul {
+        display: none;
+    }
+
+    .checkbtn {
+        display: block;
+        order: 1;
+    }
+
+    .site-header > i, h1 {
+        text-align: initial; 
+        position: initial; 
+        bottom: initial;
+    }
+
+
+    section.site-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.about {
+        display: flex;
+        flex-direction: col;
+        justify-content: center;
+        align-items: center;
+        font-size: medium;
+        font-weight: 100;
+    }
+
+    .about-header {
+        bottom: 0;
+    }
+
+    .gallery {
+    text-align: center;
+    }
+}
