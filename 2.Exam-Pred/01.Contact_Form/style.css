@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+html {
+    box-sizing: border-box;
+}
+
+
+html {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: inherit;
+    }
+
+    font-size: clamp(10px, 10px + 0.25vw, 18px);
+    font-family: 'Source Sans 3',
+    sans-serif;
+}
+
+body,
+input,
+button,
+select,
+textarea {
+    font: inherit
+}
+
+
+body {
+    background-color: #f6f6f6;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container {
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.left input,
+textarea {
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+
+}
+
+footer {
+    display: flex; 
+    flex-wrap: wrap;  
+    gap: 1.5em;  
+    align-items: flex-start; 
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 2em;
+
+}
+
+
+a {
+    color: black;
+}
+
+button {
+    height: 40px;
+    width: 80px;
+    background-color: rgb(86, 86, 86);
+    color: white;
+    border: none;
+    border-radius: 0.2em;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-top: 2em;
+
+}
+
+.uppercase-text {
+    text-transform: uppercase;
+}
+
+
+h3 {
+    letter-spacing: 4px;
+}
+
+
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em;
+
+}
+
+.right {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    gap: 5px;
+}
+
+.left {
+    width: 500px;
+}
+
+
+.right i {
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 0.2em;
+    width: calc(25% - 5px);
+    justify-content: center;
+}
+
+input,
+textarea {
+    background-color: #f6f6f6;
+    border: none;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+
+.container {
+    padding-bottom: 5em;
+}
+
+textarea {
+    width: 97%;
+    padding-top: 1.5em;
+    height: 35%;
+}
+
+
+
+input {
+    padding-top: 4em;
+}
+
+.icons {
+    padding-bottom: 2em;
+}
