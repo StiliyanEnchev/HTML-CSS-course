@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Margarine&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    background-color: #fff0e4;
+}
+
+
+body {
+    font-family: 'Margarine', sans-serif;
+
+}
+
+
+.container, .container-2 {
+    width: 100%;
+    max-width: 400px; 
+    padding: 1em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+}
+
+.whole-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 6em;
+}
+
+.container * {
+    margin: 0 0 0.6em 0;
+}
+
+.contact-row {
+    display: flex;
+    gap: 1em
+}
+
+i {
+    color: #2991e6;
+}
+
+.container h2 {
+    padding-bottom: 0.8em;
+}
+
+.container {
+    padding-bottom: 3em;
+}
+
+.percent {
+    background-color: #2991e6;
+    border-radius: 1em;
+    text-align: center;
+    width: 19em;
+    color: white;
+}
+
+
+.percent:nth-child(10) {
+    width: 17em;
+}
+
+.percent:nth-child(12) {
+    width: 16em;
+}
+
+.percent:nth-child(14) {
+    width: 12em;
+}
