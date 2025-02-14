@@ -1,2 +1,207 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #c1bbbb;
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5em 15em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+    font-family: 'Oleo Script', serif;
+    font-size: 2em; 
+    color: #ffffff; 
+    background-color: #57a390;
+    border-radius: 0.2em;
+    padding: 0 7px;
+    margin-right: 0.5em;
+    letter-spacing: 2px;
+
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 3em;
+}
+
+nav .menu-item {
+    padding: 0 1.6em;
+    font-weight: bold;
+    color: #464646;
+}
+
+nav .left-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .right-part .welcome-style {
+    background-color: rgb(65, 65, 65);
+    color: rgb(255, 255, 255);
+    border-radius: 0.3em;
+    padding: 0.4em 0.9em;
+}
+
+nav .right-part{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+}
+
+section.welcome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2em;
+    width: 100%;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 0.3em;
+    font-size: larger;
+}
+
+section.welcome .left-part{
+    width: 68%;
+    font-size: x-large;
+    color: #464646;
+}
+
+section.welcome .left-part h1 {
+    width: 300px;
+    padding-bottom: 0.3em;
+    font-weight: 1000;
+    font-size: 40px;
+}
+
+section.welcome .left-part p {
+    font-size: xx-large;
+    font-weight: 100;
+}
+
+section.welcome .right-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.welcome .right-part p {
+    border-radius: 0.2em;
+    width: 15em;
+    padding: 1em;
+    background-color: #0090c5;
+    color: white;
+    font-weight: 1000;
+    font-size: larger;
+    margin: 0.2em;
+}
+
+
+section.welcome i.arrow {
+    border-radius: 150%;
+    background-color: white;
+    color: #0090c5;
+    padding: 0.4em 0.5em;
+    margin-left: 5em;
+}
+
+
+section.welcome i.question-mark {
+    border-radius: 150%;
+    background-color: #444444;
+    color: #f2f2f2;
+    padding: 0.5em 0.7em;
+    margin-left: 5.4em;
+}
+
+section.welcome .right-part p:nth-child(2) {
+    background-color: #f2f2f2;
+    color: #444444;
+}
+
+section.articles {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+section article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+article img {
+        width: 100%;
+        height: auto;
+        max-width: 20em;  
+        min-width: 12em;
+}
+
+article {
+    margin: 1em;
+    max-width: 20em;
+}
+
+.details {
+    width: 100%;
+    height: auto;
+    padding: 1.5em;
+    background-color: #ffffff;
+}
+
+.details p {
+    padding-bottom: 1em;
+    padding-top: 0.5em;
+    color: rgb(119, 119, 119);
+    line-height: 1.5em;
+}
+
+.details h4 {
+    padding-top: 1em;
+    color: #444444;
+}
+
+img, article {
+    border-top-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+}
+
+div.details {
+    border-bottom-left-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;}
+
+.about-and-stuff {
+    display: flex;
+    flex-direction: row;
+    border: 0.1em black solid;
+    background-color: #ffffff;
+}
